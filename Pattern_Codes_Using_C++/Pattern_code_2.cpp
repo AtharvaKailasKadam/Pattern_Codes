@@ -1,4 +1,4 @@
-// Write a Code to Print the Following Pattern:-
+// Write a Code to Print the Following Pattern in C++ :- 
 // * * * * * *
 // *         *
 // *         *
@@ -13,7 +13,7 @@ using namespace std;
 int main()
 {
 	int r;
-	int c=0;
+	int c;
 	
 	cout<<"Enter the Number of Rows : "<<endl;
 	cin>>r;
@@ -32,6 +32,10 @@ int main()
 			{
 				cout<<" * ";
 		    }
+		    else
+		    {
+		    	cout<<"   ";		
+			}
 		}
 		cout<<endl;
 	}
