@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login Page</title>
+</head>
+
+<body>
+    <h2>Login Form</h2>
+
+    <!-- Text Input -->
+    <label for="username">Username:</label>
+    <input type="text" id="username"><br><br>
+
+    <!-- Password Input -->
+    <label for="password">Password:</label>
+    <input type="password" id="password"><br><br>
+
+    <!-- Checkbox -->
+    <input type="checkbox" id="remember">
+    <label for="remember">Remember Me</label><br><br>
+
+    <!-- Radio Buttons -->
+    <label>Choose Gender:</label><br>
+    <input type="radio" name="gender" value="Male" id="male">
+    <label for="male">Male</label><br>
+    <input type="radio" name="gender" value="Female" id="female">
+    <label for="female">Female</label><br><br>
+
+    <!-- Select Dropdown -->
+    <label for="animeSelect">Favorite Anime:</label><br>
+    <select id="animeSelect">
+    <option value="">--Select--</option>
+    <option value="Demon Slayer">Demon Slayer</option>
+    <option value="Attack on Titan">Attack on Titan</option>
+    <option value="One Piece">One Piece</option>
+  </select><br><br>
+
+    <!-- Button -->
+    <button onclick="submitForm()">Login</button>
+
+    <p id="output"></p>
+
+    <script>
+        function submitForm() {
+            let name = document.getElementById("username").value;
+            let password = document.getElementById("password").value;
+            let remember = document.getElementById("remember").checked;
+            let genderRadios = document.getElementsByName("gender");
+            let selectedGender = "";
+            for (let i = 0; i < genderRadios.length; i++) {
+                if (genderRadios[i].checked) {
+                    selectedGender = genderRadios[i].value;
+                    break;
+                }
+            }
+            let anime = document.getElementById("animeSelect").value;
+
+            if (name === "" || password === "" || selectedGender === "" || anime === "") {
+                document.getElementById("output").innerText = "Please fill in all the details.";
+            } else {
+                document.getElementById("output").innerText =
+                    "Welcome, " + name +
+                    "\nGender: " + selectedGender +
+                    "\nFavorite Anime: " + anime +
+                    "\nRemember Me: " + (remember ? "Yes" : "No");
+            }
+        }
+    </script>
+</body>
+
+</html>

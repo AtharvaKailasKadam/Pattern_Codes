@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>JavaScript Pop-Up Box Demo</title>
+</head>
+
+<body>
+    <script>
+        // Step 1: Prompt box to get the user's name
+        let name = prompt("Enter your name:");
+
+        // Step 2: Confirm box to ask the user to proceed
+        if (name !== null && name !== "") {
+            let proceed = confirm("Are you sure you want to continue, " + name + "?");
+
+            // Step 3: Alert box to show the final message
+            if (proceed) {
+                alert("Welcome, " + name + "! You have successfully continued.");
+            } else {
+                alert("Operation cancelled. Goodbye, " + name + "!");
+            }
+        } else {
+            alert("You didn't enter a name. Reload the page to try again.");
+        }
+    </script>
+</body>
+
+</html>

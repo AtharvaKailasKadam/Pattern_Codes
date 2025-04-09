@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Text Box in JavaScript</title>
+</head>
+
+<body>
+    <input type="text" id="textBox">
+    <button onclick="showText()">Show Text</button>
+    <p id="display"></p>
+
+    <script>
+        function showText() {
+            let text = document.getElementById("textBox").value;
+            document.getElementById("display").innerText = text;
+        }
+    </script>
+</body>
+
+</html>
