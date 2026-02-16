@@ -2,6 +2,27 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "java",
+      "name": "Pattern_code_3",
+      "request": "launch",
+      "mainClass": "Pattern_Codes_Using_Java.Pattern_code_3",
+      "projectName": "Pattern_Codes_ddd6ad5e"
+    },
+    {
+      "type": "java",
+      "name": "Pattern_Code_1",
+      "request": "launch",
+      "mainClass": "Pattern_Codes_Using_Java.Pattern_Code_1",
+      "projectName": "Pattern_Codes_ddd6ad5e"
+    },
+    {
+      "type": "java",
+      "name": "Pattern_code_2",
+      "request": "launch",
+      "mainClass": "Pattern_Codes_Using_Java.Pattern_code_2",
+      "projectName": "Pattern_Codes_ddd6ad5e"
+    },
+    {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",
