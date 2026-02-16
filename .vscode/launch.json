@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Pattern_Code_4",
+      "request": "launch",
+      "mainClass": "Pattern_Codes_Using_Java.Pattern_Code_4",
+      "projectName": "Pattern_Codes_ddd6ad5e"
+    },
+    {
+      "type": "java",
       "name": "Pattern_code_3",
       "request": "launch",
       "mainClass": "Pattern_Codes_Using_Java.Pattern_code_3",
