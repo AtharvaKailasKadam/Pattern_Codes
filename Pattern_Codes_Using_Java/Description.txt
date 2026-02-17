@@ -1,0 +1,53 @@
+Pattern_Codes_Using_Java
+
+This folder contains a collection of Java programs focused on printing different types of star and number patterns using nested loops and conditional logic. It is created to strengthen core programming fundamentals and improve logical thinking.
+
+📌 What This Folder Contains
+
+Square star patterns
+
+Increasing and decreasing triangle patterns
+
+Pyramid and inverted pyramid patterns
+
+Diamond patterns
+
+Butterfly patterns
+
+Hollow patterns
+
+Number-based patterns
+
+Symmetrical pattern structures
+
+🎯 Purpose of This Collection
+
+Improve mastery of nested loops
+
+Strengthen logical thinking and pattern analysis
+
+Understand symmetry and mathematical relationships
+
+Build strong fundamentals in Java
+
+Prepare for coding interviews
+
+Practice clean and structured coding
+
+🛠 Structure of Programs
+
+Each pattern is implemented in a separate Java class
+
+Proper numbering format (Pattern_Code_1, Pattern_Code_2, etc.)
+
+Dedicated method for printing the pattern
+
+main() method included for execution
+
+Focus on readable and organized code
+
+This folder represents continuous practice in Java logic building and structured problem-solving.
+
+Language Used: Java
+Purpose: Logic Development & Interview Preparation
+Author: Atharva Kadam

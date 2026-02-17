@@ -3,6 +3,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Pattern_Code_23",
+      "request": "launch",
+      "mainClass": "Pattern_Codes_Using_Java.Pattern_Code_23",
+      "projectName": "Pattern_Codes_ddd6ad5e"
+    },
+    {
+      "type": "java",
+      "name": "Pattern_Codes_22",
+      "request": "launch",
+      "mainClass": "Pattern_Codes_Using_Java.Pattern_Codes_22",
+      "projectName": "Pattern_Codes_ddd6ad5e"
+    },
+    {
+      "type": "java",
+      "name": "Pattern_Code_22",
+      "request": "launch",
+      "mainClass": "Pattern_Codes_Using_Java.Pattern_Code_22",
+      "projectName": "Pattern_Codes_ddd6ad5e"
+    },
+    {
+      "type": "java",
+      "name": "Pattern_Code_21",
+      "request": "launch",
+      "mainClass": "Pattern_Codes_Using_Java.Pattern_Code_21",
+      "projectName": "Pattern_Codes_ddd6ad5e"
+    },
+    {
+      "type": "java",
       "name": "Pattern_Code_20",
       "request": "launch",
       "mainClass": "Pattern_Codes_Using_Java.Pattern_Code_20",
