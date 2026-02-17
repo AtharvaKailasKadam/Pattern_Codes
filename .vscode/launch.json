@@ -3,6 +3,55 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Pattern_Code_20",
+      "request": "launch",
+      "mainClass": "Pattern_Codes_Using_Java.Pattern_Code_20",
+      "projectName": "Pattern_Codes_ddd6ad5e"
+    },
+    {
+      "type": "java",
+      "name": "Pattern_Code_19",
+      "request": "launch",
+      "mainClass": "Pattern_Codes_Using_Java.Pattern_Code_19",
+      "projectName": "Pattern_Codes_ddd6ad5e"
+    },
+    {
+      "type": "java",
+      "name": "Pattern_Code_17",
+      "request": "launch",
+      "mainClass": "Pattern_Codes_Using_Java.Pattern_Code_17",
+      "projectName": "Pattern_Codes_ddd6ad5e"
+    },
+    {
+      "type": "java",
+      "name": "Pattern_Code_16",
+      "request": "launch",
+      "mainClass": "Pattern_Codes_Using_Java.Pattern_Code_16",
+      "projectName": "Pattern_Codes_ddd6ad5e"
+    },
+    {
+      "type": "java",
+      "name": "Pattern_Code_15",
+      "request": "launch",
+      "mainClass": "Pattern_Codes_Using_Java.Pattern_Code_15",
+      "projectName": "Pattern_Codes_ddd6ad5e"
+    },
+    {
+      "type": "java",
+      "name": "Pattern_Code_14",
+      "request": "launch",
+      "mainClass": "Pattern_Codes_Using_Java.Pattern_Code_14",
+      "projectName": "Pattern_Codes_ddd6ad5e"
+    },
+    {
+      "type": "java",
+      "name": "Pattern_Code_13",
+      "request": "launch",
+      "mainClass": "Pattern_Codes_Using_Java.Pattern_Code_13",
+      "projectName": "Pattern_Codes_ddd6ad5e"
+    },
+    {
+      "type": "java",
       "name": "Pattern_Code_12",
       "request": "launch",
       "mainClass": "Pattern_Codes_Using_Java.Pattern_Code_12",
